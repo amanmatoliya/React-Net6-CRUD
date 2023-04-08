@@ -67,6 +67,7 @@ namespace Sundues_Employee_CRUD.Controllers
                 emp.First_Name = employee.First_Name;
                 emp.Last_Name= employee.Last_Name;
                 emp.Designation= employee.Designation;
+                emp.Salary= employee.Salary;
                 emp.Email = employee.Email;
                 emp.Phone = employee.Phone;
                 await _employeeDbContext.SaveChangesAsync();
